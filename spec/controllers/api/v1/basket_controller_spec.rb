@@ -10,23 +10,9 @@ RSpec.describe Api::V1::BasketController, type: :controller do
     end
   end
 
-  describe 'PATCH #udpate' do
+  describe 'POST #add' do
     it 'returns http success' do
-      patch :update, params: { user_uuid: 'er' }
-      expect(response).to have_http_status(:success)
-    end
-  end
-
-  describe 'PATCH #remove' do
-    it 'returns http success' do
-      patch :remove, params: { user_uuid: 'er', product_id: 1 }
-      expect(response).to have_http_status(:success)
-    end
-  end
-
-  describe 'PATCH #add' do
-    it 'returns http success' do
-      patch :add, params: { user_uuid: 'er', product_id: 1 }
+      post :add, params: { user_uuid: 'er' }
       expect(response).to have_http_status(:success)
     end
   end
