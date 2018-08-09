@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
+  # get 'assets/', to: static('/assets')
+
   namespace :api do
     namespace :v1, defaults: { format: :json } do
       get 'basket/:user_uuid/show', as: 'basket_show', to: 'basket#show'

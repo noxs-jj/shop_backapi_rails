@@ -1,1 +1,3 @@
-json.todo 'todo'
+# frozen_string_literal: true
+
+json.products @products

@@ -8,8 +8,6 @@ require 'rspec/rails'
 require 'awesome_print'
 require 'faker'
 
-
-
 ActiveRecord::Schema.verbose = false
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }

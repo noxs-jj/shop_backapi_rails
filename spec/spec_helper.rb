@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 require 'rspec/rails'
@@ -13,6 +15,7 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
   config.shared_context_metadata_behavior = :apply_to_host_groups
+  config.render_views = true
 
   Dir['./spec/support/*.rb'].each { |f| require f }
   Dir['./spec/support/shared_context/**/*.rb'].each { |f| require f }
