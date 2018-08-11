@@ -2,7 +2,6 @@
 
 class Api::V1::BasketController < ApplicationController
   def show
-    # TODO: Tests
     @basket = Basket.find_by(user_uuid: basket_params['user_uuid'])
     @products = BasketService.products_from_basket(@basket)
 
@@ -10,7 +9,6 @@ class Api::V1::BasketController < ApplicationController
   end
 
   def add
-    # TODO: Tests
     @basket = BasketService.update_basket(basket_params)
     @products = BasketService.products_from_basket(@basket)
 
