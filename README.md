@@ -1,7 +1,7 @@
 # Shop Rails Api
 
 ## Dependencies
-- Backend https://bitbucket.org/noxsnono/shop_front_vuex
+- Backend https://github.com/noxsnono/shop_front_vuex
 
 ## PreRequies
 - ruby 2.5.1
