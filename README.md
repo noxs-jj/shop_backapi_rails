@@ -8,7 +8,7 @@
 
 ## How to start
     bundle install
-    bundle exec rake db:create db:migrate db:seed
+    bundle exec rake db:drop db:create db:migrate db:seed
     rails s -p 3000
 
 ## Unit tests

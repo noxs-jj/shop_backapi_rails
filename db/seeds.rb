@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-if Product.all.count.zero?
+if Product.all.count < 12
   Product.new(
     name: 'whale',
     price: 13.62,
@@ -48,6 +48,110 @@ if Product.all.count.zero?
       'http://files.noxs.net/shop_railsapi/products/004/car_01.jpg',
       'http://files.noxs.net/shop_railsapi/products/004/car_02.jpg',
       'http://files.noxs.net/shop_railsapi/products/004/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'aardvark',
+    price: 365.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/005/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/005/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/005/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/005/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'oryx',
+    price: 59.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/006/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/006/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/006/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/006/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'porpoise',
+    price: 23.56,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/007/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/007/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/007/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/007/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'salamander',
+    price: 8.3,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/008/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/008/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/008/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/008/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'deer',
+    price: 4.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/009/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/009/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/009/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/009/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'dingo',
+    price: 1478.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/010/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/010/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/010/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/010/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'gorilla',
+    price: 0.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/011/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/011/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/011/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/011/car_03.jpg'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
+  ).save
+
+  Product.new(
+    name: 'cow',
+    price: 951.85,
+    images_preview_url: 'http://files.noxs.net/shop_railsapi/products/012/preview.jpg',
+    images_caroussel: [
+      'http://files.noxs.net/shop_railsapi/products/012/car_01.jpg',
+      'http://files.noxs.net/shop_railsapi/products/012/car_02.jpg',
+      'http://files.noxs.net/shop_railsapi/products/012/car_03.jpg'
     ],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     long_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa massa ultricies mi quis hendrerit dolor. Duis ut diam quam nulla porttitor massa id. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Elit sed vulputate mi sit amet mauris. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Sed elementum tempus egestas sed sed risus. Libero nunc consequat interdum varius sit amet mattis.'
